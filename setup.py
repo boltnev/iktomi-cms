@@ -30,7 +30,7 @@ setup(
                        'static/images/*/*.*',
                        ],
     },
-    requires=[
+    install_requires=[
         'webob (>1.1b1)',
         'iktomi (>0.3)',
         'PyReact (>0.5)',
