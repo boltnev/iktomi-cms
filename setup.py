@@ -31,9 +31,9 @@ setup(
                        ],
     },
     install_requires=[
-        'webob (>1.1b1)',
-        'iktomi (>0.3)',
-        'PyReact (>0.5)',
+        'webob>=1.1b1',
+        'iktomi>=0.3',
+        'PyReact>=>0.5',
     ],
     author='Denis Otkidach',
     author_email='denis.otkidach@gmail.com',
