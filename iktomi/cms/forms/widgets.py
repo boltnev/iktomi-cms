@@ -185,7 +185,7 @@ class PopupStreamSelect(Select):
             'allow_create': self.allow_create,
             'allow_select': self.allow_select,
             'allow_select_main': self.allow_select_main,
-            'main_field_name': self.main_field_name if self.main_field_name else self.name+'_main',
+            'main_field_name': self.main_field_name if self.main_field_name else self.field.name+'_main',
             'sortable': self.sortable,
             'unshift': self.unshift,
             'open_btn_text': self.open_btn_text,
